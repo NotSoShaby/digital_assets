@@ -1,0 +1,67 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block content %}
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
+  <link href="./assets/favicon.ico" rel="icon">
+
+  <title>Title page</title>
+
+<link href="{% static 'car_rentals/css/home.css' %}" rel="stylesheet"></head>
+
+<body class="minimal">
+<div id="site-border-left"></div>
+<div id="site-border-right"></div>
+<div id="site-border-top"></div>
+<div id="site-border-bottom"></div>
+<!-- Add your content of header -->
+<header>
+</header>
+<!-- Add your site or app content here -->
+  <div class="hero-full-container background-image-container white-text-container" style="background-image: url({% static 'car_rentals/assets/ferrari_home.jpeg' %})">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="hero-full-wrapper">
+            <div class="text-content">
+              <h1>I live to,<br>
+                <span id="typed-strings">
+                  <span>Burn Tires</span>
+                  <span>Drive Fast</span>
+                  <span>Kick Ass</span>
+                </span>
+                <span id="typed"></span>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+     type();
+     movingBackgroundImage();
+  });
+</script>
+
+
+<script type="text/javascript" src="{% static 'car_rentals/js/home.js' %}"></script></body>
+
+</html>
+
+{% endblock content %}
