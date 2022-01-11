@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bf2aebec-044a-45cb-9c10-60e43abd865d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car_rentals/data/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/car_rentals/data/data_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car_rentals/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/car_rentals/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/digital_assets/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/digital_assets/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/car_rentals/static/car_rentals/css" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -180,6 +173,12 @@
       <updated>1640871932648</updated>
     </task>
     <servers />
+  </component>
+  <component name="TerminalProjectNonSharedOptionsProvider">
+    <envs>
+      <env key="AWS_ACCESS_KEY_ID" value="AKIATNRX7LYAGGJFHPE3" />
+      <env key="AWS_SECRET_ACCESS_KEY" value="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" />
+    </envs>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
