@@ -5,7 +5,9 @@ from wiki.main import Wiki
 
 class Manufacturer(BaseIteratedModel):
     use_default_description = True
+    use_default_image = True
     _main_field = 'name'
+    image_search_keyword = 'logo'
     name = models.CharField(max_length=20)
 
 

@@ -10,6 +10,10 @@ django = "*"
 pandas = "*"
 regex = "*"
 wikipedia = "*"
+bing-image-downloader = "*"
+django-storages = "*"
+boto3 = "*"
+pillow = "*"
 
 [requires]
 python_version = "3.9"
