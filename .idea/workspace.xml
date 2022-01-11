@@ -43,7 +43,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/car_rentals/static/car_rentals/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/manage.py" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
@@ -62,7 +62,30 @@
       <recent name="$PROJECT_DIR$/car_rentals/templates/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.cars data loader">
+  <component name="RunManager" selected="Python.runserver">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="digital_assets" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="AWS_ACCESS_KEY_ID" value="AKIATNRX7LYABBY5XSRJ" />
+        <env name="AWS_SECRET_ACCESS_KEY" value="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" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.local/share/virtualenvs/digital_assets-9xYiEndr/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="cars data loader" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="digital_assets" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,6 +101,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/car_rentals/data/data_loader.py" />
       <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="collectstatic" type="PythonConfigurationType" factoryName="Python">
+      <module name="digital_assets" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="AWS_ACCESS_KEY_ID" value="AKIATNRX7LYABBY5XSRJ" />
+        <env name="AWS_SECRET_ACCESS_KEY" value="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" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.local/share/virtualenvs/digital_assets-9xYiEndr/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="collectstatic" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -134,6 +180,8 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="AWS_ACCESS_KEY_ID" value="AKIATNRX7LYABBY5XSRJ" />
+        <env name="AWS_SECRET_ACCESS_KEY" value="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" />
       </envs>
       <option name="SDK_HOME" value="$USER_HOME$/.local/share/virtualenvs/digital_assets-9xYiEndr/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -150,6 +198,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.collectstatic" />
       <item itemvalue="Python.runserver" />
       <item itemvalue="Python.models" />
       <item itemvalue="Python.location data loader" />
@@ -173,12 +222,6 @@
       <updated>1640871932648</updated>
     </task>
     <servers />
-  </component>
-  <component name="TerminalProjectNonSharedOptionsProvider">
-    <envs>
-      <env key="AWS_ACCESS_KEY_ID" value="AKIATNRX7LYAGGJFHPE3" />
-      <env key="AWS_SECRET_ACCESS_KEY" value="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" />
-    </envs>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
