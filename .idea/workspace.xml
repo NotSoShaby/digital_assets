@@ -198,11 +198,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.collectstatic" />
-      <item itemvalue="Python.runserver" />
-      <item itemvalue="Python.models" />
-      <item itemvalue="Python.location data loader" />
       <item itemvalue="Python.cars data loader" />
+      <item itemvalue="Python.collectstatic" />
+      <item itemvalue="Python.location data loader" />
+      <item itemvalue="Python.models" />
+      <item itemvalue="Python.runserver" />
     </list>
     <recent_temporary>
       <list>
