@@ -4,7 +4,7 @@ from car_rentals.views import ManufacturerListView, ManufacturerDetailView, CarL
     AutomaticView, TrailView
 
 urlpatterns = [
-    # path('', TrailView.as_view(), name='dfgfd'),
+    path('', TrailView.as_view(), name='dfgfd'),
     # path('', ManufacturerListView.as_view(), name='manufacturer_list'),
     # path('<slug:slug>', ManufacturerDetailView.as_view(), name='manufacturer_detail'),
     #

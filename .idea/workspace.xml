@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="bf2aebec-044a-45cb-9c10-60e43abd865d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital_assets/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/digital_assets/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car_rentals/data/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/car_rentals/data/data_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car_rentals/static/car_rentals/assets/ferrari_home.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/car_rentals/static/car_rentals/assets/ferrari_home.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car_rentals/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/car_rentals/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car_rentals/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/car_rentals/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,12 +16,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="sardar" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -62,7 +70,7 @@
       <recent name="$PROJECT_DIR$/car_rentals/templates/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.runserver">
+  <component name="RunManager" selected="Python.cars data loader">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="digital_assets" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,17 +94,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="cars data loader" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="cars data loader" type="PythonConfigurationType" factoryName="Python">
       <module name="digital_assets" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="AWS_ACCESS_KEY_ID" value="AKIATNRX7LYABBY5XSRJ" />
+        <env name="AWS_SECRET_ACCESS_KEY" value="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" />
         <env name="DJANGO_SETTINGS_MODULE" value="digital_assets.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/car_rentals/data" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/.local/share/virtualenvs/digital_assets-9xYiEndr/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/car_rentals/data/data_loader.py" />
@@ -198,11 +208,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.cars data loader" />
       <item itemvalue="Python.collectstatic" />
-      <item itemvalue="Python.location data loader" />
-      <item itemvalue="Python.models" />
+      <item itemvalue="Python.cars data loader" />
       <item itemvalue="Python.runserver" />
+      <item itemvalue="Python.models" />
+      <item itemvalue="Python.location data loader" />
     </list>
     <recent_temporary>
       <list>
@@ -246,6 +256,11 @@
           <url>file://$PROJECT_DIR$/main/models.py</url>
           <line>61</line>
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/car_rentals/data/data_loader.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

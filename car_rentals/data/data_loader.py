@@ -1,5 +1,9 @@
 import django
-from django.db import IntegrityError
+import pandas as pd
+import boto3
+import io
+
+from django.conf import settings
 
 
 def populate_db():
@@ -16,4 +20,8 @@ def run():
     populate_db()
 
 
+# django.setup()
+# s3 = boto3.client('s3')
+# obj = s3.get_object(Bucket=settings.AWS_STORAGE_BUCKET_NAME, Key='data/cars_makers_table.csv')
+# df = pd.read_csv(io.BytesIO(obj['Body'].read()))
 run()

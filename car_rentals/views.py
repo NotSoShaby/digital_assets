@@ -20,6 +20,7 @@ class ManufacturerDetailView(DetailView):
 class TrailView(TemplateView):
     template_name = 'car_rentals/home.html'
 
+
 class CarListView(ListView):
     model = Car
 
