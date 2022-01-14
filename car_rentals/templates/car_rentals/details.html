@@ -1,0 +1,57 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block styles %}
+	<style>
+		.container2{
+			display:flex;
+			justify-content: center;
+		}
+		.displayCared{
+			margin-top: 4%;
+			width:70%;
+			padding: 20px;
+			background-color: white;
+		}
+		.caption{
+			display: flex;
+			justify-content: center;
+		}
+		.objData{
+			padding:20px;
+			overflow: hidden;
+		}
+
+		.avatar {
+		vertical-align: middle;
+		width: 400px;
+		height: 250px;
+		}
+		body{
+			background-color: gainsboro;
+		}
+	</style>
+{% endblock styles %}
+
+{% block content %}
+<div class="container">
+	<div class="container2">
+		<div class="displayCared shadow-lg p-3 mb-5 bg-white rounded">
+			<div style="display: flex;">
+				<h1>Title:</h1>
+				<h1 style="margin-left: 20px;" >{{carObj.slug}}</h1>
+			</div>
+			<div class="caption">
+				<td><img src="{% static 'car_rentals/assets/car_img1.png' %}" alt="Avatar" class="avatar"></td>
+			</div>
+			<div class="objData">
+				<div>
+					<h1>Description</h1>
+					<p>{{carObj.description}}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+{% endblock content %}

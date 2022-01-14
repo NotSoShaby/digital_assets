@@ -1,0 +1,76 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block styles %}
+	<style>
+		.container2{
+			display:flex;
+			justify-content: center;
+			margin-top: 20px;
+		}
+		.displayCared{
+			width:700px;
+			display:flex;
+			min-height: 175px;
+			padding: 20px;
+			background-color: white;
+		}
+		.pic{
+			width:50%;
+			overflow: hidden;
+			display:flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.objData{
+			padding:5px;
+			width:50%;
+			overflow: hidden;
+		}
+
+		.avatar {
+		vertical-align: middle;
+		width: 200px;
+		height: 125px;
+		}
+		body{
+			background-color: gainsboro;
+		}
+		.bold{
+			font-weight: 800 !important;
+		}
+		.container{
+			width: 80%;
+		}
+	</style>
+{% endblock styles %}
+
+{% block content %}
+<div class="container">
+	{% for car in carsObj %}
+		<div class="container2">
+			<div class="displayCared shadow-lg p-3 mb-5 bg-white rounded" style="display: flex;">
+				<div class="pic">
+					<a href="{% url 'description' car.id%}"><img style=" padding: 18px;     min-width: 200px;" src="{% static 'car_rentals/assets/car_img1.png' %}" alt="Avatar" class="avatar"></a>
+				</div>
+				<div class="objData">
+					<div style="display: flex;">
+						<p class="bold" style="color:#666666;font-weight:800"><strong>Title:</strong></p>
+						<p style="margin-left: 10px;"><a href="{% url 'description' car.id%}">{{car.slug}}</a></p>
+					</div>
+					<div>
+						<p class="bold" style="color:#666666;font-weight:800"><strong>Description:</strong></p>
+						<p id="disc">{{car.description|truncatechars:300}} <strong><a  onclick="$(this).parent().parent().hide();console.log($(this).parent().parent().next().show())">read more</a> </strong></p>
+						<p id="discHiden" style="display: none;">{{car.description}}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	{% endfor %}
+</div>
+{% endblock content %}
+
+{% block js %}
+	
+{% endblock js %}
+

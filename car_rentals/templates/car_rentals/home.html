@@ -1,0 +1,37 @@
+{% extends "main/base.html" %}
+<style>
+
+</style>
+{% load static %}
+
+{% block content %}
+
+  
+     <!-- New theme  -->
+    
+     <!-- <div class="loader_bg">
+        <div class="loader"><img src="/static/media/loading.gif" alt="#" /></div>
+     </div> -->
+     <!-- end loader -->
+     
+{% include 'car_rentals/homeSec1.html' %}
+
+
+
+
+
+     <!-- Javascript files-->
+     <script src="{% static 'car_rentals/js/themejs/jquery.min.js' %}"></script>
+     <script src="{% static 'car_rentals/js/themejs/popper.min.js' %}"></script>
+     <script src="{% static 'car_rentals/js/themejs/bootstrap.bundle.min.js' %}"></script>
+     <script src="{% static 'car_rentals/js/themejs/jquery-3.0.0.min.js' %}"></script>
+     <script src="{% static 'car_rentals/js/themejs/plugin.js' %}"></script>
+     <!-- sidebar -->
+     <script src="{% static 'car_rentals/js/themejs/jquery.mCustomScrollbar.concat.min.js' %}"></script>
+     <script src="{% static 'car_rentals/js/themejs/custom.js' %}"></script>
+     <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+     <script type="text/javascript" src="{% static 'car_rentals/js/home.js' %}"></script>
+
+
+
+{% endblock content %}

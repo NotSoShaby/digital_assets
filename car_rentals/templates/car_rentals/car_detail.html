@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Car Details</title>
+</head>
+<body>
+
+{% block content %}
+  <h1>{{ object.make.name }} - {{ object.model }}</h1>
+{% include "car_rentals/manufacturer_detail.html" with object=object.make %}
+
+{% endblock %}
+</body>
+</html>

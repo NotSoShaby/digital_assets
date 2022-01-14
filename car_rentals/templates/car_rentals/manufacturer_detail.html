@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>manufacturer Details</title>
+</head>
+<body>
+
+{% block content %}
+  <h1>{{ object.name }}</h1>
+    <p>{{ object.description }}</p>
+
+    {% for car in object.cars.all %}
+      <li>
+        <a href="{{ car.get_absolute_url }}">{{ car.main }}</a>
+      </li>
+    {% endfor %}
+{% endblock %}
+</body>
+</html>
